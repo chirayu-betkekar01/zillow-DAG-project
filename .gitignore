@@ -1,0 +1,11 @@
+# Secrets: EC2 SSH key and RapidAPI headers (the DAG reads config_api.json at import time)
+*.pem
+*.key
+config_api.json
+
+# Raw API output the DAG writes on the host
+response_data_*.json
+response_data_*.csv
+
+__pycache__/
+*.pyc
